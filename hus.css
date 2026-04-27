@@ -72,7 +72,7 @@ body {
   gap: 26px;
   align-items: end;
   padding: 110px 24px 130px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .house-side {
