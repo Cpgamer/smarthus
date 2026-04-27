@@ -6,10 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="hus.css">
 <link rel="stylesheet" href="https://use.typekit.net/iua8ezv.css">
 <title>Document</title>
 </head>
 <body>
+
 <div class="header-container">
     <!-- <div id="logo">
         <img src="Åssiden vgs logo.svg" alt="logo">
@@ -17,6 +19,7 @@
     </div> -->
 
     <h1 class="header">header</h1>
+</div>
 
     <!-- <div class="hus">
         <img src="Skjermbilde 2026-04-23 143311.jpg" alt="hus">
@@ -30,6 +33,69 @@
 
             </ul> -->
 
+    <!-- Håvards kode for husanimasjon -->
+    <section class="comparison-module">
+    <div class="comparison-box">
+        <div class="houses-stage" id="housesStage">
+        <div class="floating-info" id="floatingInfo">
+            <h3>Select a house</h3>
+            <p>Drag the handle left or right to explore each house.</p>
+        </div>
+
+        <div class="house-side house-side--minus" id="minusSide">
+            <div class="scene scene--minus">
+            <div class="tree tree--left"></div>
+            <div class="tree tree--right"></div>
+
+            <div class="house-label">Minus House</div>
+
+            <div class="house house--minus" id="minusHouse">
+                <div class="roof"></div>
+                <div class="chimney"></div>
+                <div class="body"></div>
+                <div class="door"></div>
+                <div class="window window-left"></div>
+                <div class="window window-right"></div>
+                <div class="features" id="minusFeatures"></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="house-side house-side--plus" id="plusSide">
+            <div class="scene scene--plus">
+            <div class="sun" id="sunEffect"></div>
+            <div class="tree tree--left"></div>
+            <div class="tree tree--right"></div>
+
+            <div class="house-label">Plus House</div>
+
+            <div class="house house--plus" id="plusHouse">
+                <div class="roof"></div>
+                <div class="solar-panel" id="solarPanel"></div>
+                <div class="body"></div>
+                <div class="door"></div>
+                <div class="window window-left"></div>
+                <div class="window window-right"></div>
+                <div class="features" id="plusFeatures"></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="slider-overlay">
+            <div class="slider-label slider-label--left">Minus</div>
+            <div class="slider-line" id="sliderTrack">
+            <div class="slider-glow"></div>
+            <div class="slider-handle" id="sliderHandle">
+                <span class="slider-dot"></span>
+            </div>
+            </div>
+            <div class="slider-label slider-label--right">Plus</div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="hus.js"></script>
 
 </body>
 </html>
