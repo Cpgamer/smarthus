@@ -53,6 +53,7 @@ font-size: 50px;
 }
 
 .card-list .card-item .card-link {
+    user-select: none;
     display: block;
     background: #fff;
     padding: 18px;
@@ -78,8 +79,7 @@ font-size: 50px;
     border-radius: 10px;
 }
 
-.card-list .card-link .badge {
-    color: #cc3d3d;
+.card-list .card-link .badge{
     padding: 8px 16px;
     font-size: 0.95rem;
     font-weight: 500;
@@ -87,6 +87,38 @@ font-size: 50px;
     /* background: #DDE4FF; */
     width: fit-content;
     border-radius: 50px;
+}
+
+.card-list .card-link .badge.minus-house1 {
+    color: #cc3d3d;
+}
+
+.card-list .card-link .badge.minus-house2 {
+    color: #cc3d3d;
+}
+
+.card-list .card-link .badge.minus-house3 {
+    color: #cc3d3d;
+}
+
+.card-list .card-link .badge.minus-house4 {
+    color: #cc3d3d;
+}
+
+.card-list .card-link .badge.plus-house1 {
+    color: #118e49;
+}
+
+.card-list .card-link .badge.plus-house2 {
+    color: #118e49;
+}
+
+.card-list .card-link .badge.plus-house3 {
+    color: #118e49;
+}
+
+.card-list .card-link .badge.plus-house4 {
+    color: #118e49;
 }
 
 .card-list .card-link .card-title {
@@ -116,3 +148,4 @@ font-size: 50px;
 #bilde3 img{
     width: 300px;
 }
+
