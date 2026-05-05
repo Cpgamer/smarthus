@@ -83,7 +83,7 @@ font-size: 50px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
-    outline: 3px black solid;
+    /* outline: 3px black solid; */
 }
 
 .card-list .card-link .badge{
