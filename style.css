@@ -16,40 +16,6 @@ box-sizing: border-box;
     margin-right: auto;
 }
 
-.header-container {
-background-color: gray;
-display: flex;
-justify-content: center;
-width: 100%;
-height: 50px;
-margin-top: 30px;
-
-}
-#logo {
-position: fixed;
-
-top: 35px;
-left: 10px;
-z-index: 1000;
-}
-#logo img {
-width: 100px;
-}
-.header-container #logo {
-flex: 1;
-}
-.header-container #logo img{
-width: 100px;
-}
-.header{
-display: flex;
-color: white;
-justify-content: center;
-flex: 2;
-}
-h1 {
-font-size: 50px;
-}
 
 .container{
     display: flex;
