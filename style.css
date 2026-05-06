@@ -5,6 +5,7 @@ font-family: "Roboto", sans-serif;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+scroll-behavior: smooth;
 }
 
 
@@ -24,7 +25,7 @@ box-sizing: border-box;
     background: linear-gradient(#ECEFFE, #CED6FB);
 }
 
-.card-list .card-item .card-link {
+.card-list .card-item  {
     user-select: none;
     display: block;
     background: #fff;
@@ -36,15 +37,31 @@ box-sizing: border-box;
     transition: 0.2s ease;
 } 
 
-.card-list .card-item .card-link:hover {
+.card-list .card-item:hover {
     border-color: #5372F0;
 }
+.comparison-module .comparison-box .card-button{
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50%;
+    margin: 15px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+    transform: rotate(90deg);
+    transition: 0.4s ease;
+}
 
+.comparison-module .comparison-box .card-button:hover {
+    color: #fff;
+    background: #5372F0;
+}
 .card-item{
     list-style: none;
 }
 
-.card-list .card-link .card-image{
+.card-list .card-image{
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -52,7 +69,7 @@ box-sizing: border-box;
     /* outline: 3px black solid; */
 }
 
-.card-list .card-link .badge{
+.card-list .badge{
     padding: 8px 0px;
     font-size: 0.95rem;
     font-weight: 500;
@@ -62,45 +79,46 @@ box-sizing: border-box;
     border-radius: 50px;
 }
 
-.card-list .card-link .badge.minus-house1 {
+.card-list .badge.minus-house1 {
     color: #cc3d3d;
 }
 
-.card-list .card-link .badge.minus-house2 {
+.card-list .badge.minus-house2 {
     color: #cc3d3d;
 }
 
-.card-list .card-link .badge.minus-house3 {
+.card-list .badge.minus-house3 {
     color: #cc3d3d;
 }
 
-.card-list .card-link .badge.minus-house4 {
+.card-list .badge.minus-house4 {
     color: #cc3d3d;
 }
 
-.card-list .card-link .badge.plus-house1 {
+.card-list .badge.plus-house1 {
     color: #118e49;
 }
 
-.card-list .card-link .badge.plus-house2 {
+.card-list .badge.plus-house2 {
     color: #118e49;
 }
 
-.card-list .card-link .badge.plus-house3 {
+.card-list .badge.plus-house3 {
     color: #118e49;
 }
 
-.card-list .card-link .badge.plus-house4 {
+.card-list .badge.plus-house4 {
     color: #118e49;
 }
 
-.card-list .card-link .card-title {
+.card-list .card-title {
     font-size: 1.9rem;
     color: #000;
     font-weight: 600;
+    
 }
 
-.card-list .card-link .card-button {
+.card-list .card-button {
     height: 35px;
     width: 35px;
     color: #5372F0;
@@ -109,11 +127,11 @@ box-sizing: border-box;
     background: none;
     cursor: pointer;
     border: 2px solid #5372F0;
-    transform: rotate(-45deg);
+    transform: rotate(-90deg);
     transition: 0.4s ease;
 }
 
-.card-list .card-link:hover .card-button {
+.card-list .card-button:hover {
     color: #fff;
     background: #5372F0;
 }
