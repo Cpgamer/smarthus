@@ -77,6 +77,11 @@ scroll-behavior: smooth;
     background: #5372F0;
 }
 
+#boks3{
+    height: 80vh;
+    margin-bottom:0px;
+}
+
 .card-wrapper {
     max-width: 1200px;
     overflow: hidden;
