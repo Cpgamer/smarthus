@@ -34,7 +34,7 @@ scroll-behavior: smooth;
     /* min-height:20vh; */
     padding: 18px;
     margin-top:50px;
-    margin-bottom:50px;
+    margin-bottom:10px;
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid transparent;
@@ -43,7 +43,10 @@ scroll-behavior: smooth;
 } 
 
 .boks1-item p {
-    max-width: 1000px;
+    max-width: 1200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: larger;
 }
 
 .boks1-list .boks1-item:hover {
