@@ -42,6 +42,10 @@ scroll-behavior: smooth;
     transition: 0.2s ease;
 } 
 
+.boks1-item p {
+    max-width: 1000px;
+}
+
 .boks1-list .boks1-item:hover {
     border-color: #5372F0;
 }
@@ -108,6 +112,19 @@ scroll-behavior: smooth;
     text-decoration: none;
     border: 2px solid transparent;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+} 
+
+.card-list-info .card-item-info {
+    user-select: none;
+    display: block;
+    max-width:50px;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05); */
     transition: 0.2s ease;
 } 
 
