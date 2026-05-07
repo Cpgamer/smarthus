@@ -8,6 +8,74 @@ box-sizing: border-box;
 scroll-behavior: smooth;
 }
 
+.boks1-wraper {
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.container-boks1{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#ECEFFE, #CED6FB);
+    border-bottom: 100vh;
+    
+}
+
+.boks1-list .boks1-item  {
+    user-select: none;
+    display: block;
+    background: #fff;
+    min-width:1200px;
+    height: 90vh;
+    /* min-height:20vh; */
+    padding: 18px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+} 
+
+.boks1-list .boks1-item:hover {
+    border-color: #5372F0;
+}
+
+ .boks1.boks1-link .boks1-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50%;
+    margin: 15px 1110px 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+    transform: rotate(90deg);
+    transition: 0.4s ease;
+}
+
+ /* .boks1-button{
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50%;
+    margin: 15px 1110px 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+    transform: rotate(90deg);
+    transition: 0.4s ease;
+} */
+
+.boks1-link #boks1-knapp .boks1-button:hover{
+    color: #fff;
+    background: #5372F0;
+}
 
 .card-wrapper {
     max-width: 1200px;
