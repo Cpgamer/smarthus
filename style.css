@@ -23,6 +23,7 @@ scroll-behavior: smooth;
     justify-content: center;
     min-height: 100vh;
     background: linear-gradient(#ECEFFE, #CED6FB);
+    border-bottom: 100vh;
 }
 
 .card-list .card-item  {
@@ -45,7 +46,7 @@ scroll-behavior: smooth;
     width: 35px;
     color: #5372F0;
     border-radius: 50%;
-    margin: 15px 0 5px;
+    margin: 15px 1110px 5px;
     background: none;
     cursor: pointer;
     border: 2px solid #5372F0;
@@ -123,7 +124,7 @@ scroll-behavior: smooth;
     width: 35px;
     color: #5372F0;
     border-radius: 50%;
-    margin: 15px 0 5px;
+    margin: 15px 1110px 5px;
     background: none;
     cursor: pointer;
     border: 2px solid #5372F0;
@@ -145,6 +146,8 @@ scroll-behavior: smooth;
     width: 13px;
     opacity: 0.5;
     background: #822237;
+    
+    
 }
 
 .card-wrapper .swiper-pagination-bullet-active {
@@ -153,8 +156,17 @@ scroll-behavior: smooth;
 
 .card-wrapper .swiper-slide-button {
     color: #822237;
-
 }
+
+#knapp-forige {
+    margin-left: 500px;
+}
+
+#knapp-neste {
+    margin-right: 500px;
+}
+
+
 /* 
 @media (max-width: 768px) {
 
